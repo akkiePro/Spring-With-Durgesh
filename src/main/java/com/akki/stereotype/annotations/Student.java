@@ -11,7 +11,7 @@ public class Student {
     private String studentName;
     @Value("Ahmedabad")
     private String city;
-    @Value("#{listOfAddresses}")
+    @Value("#{listOfAddresses}")    // SpEL (Spring Expression Language)
     private List<String> address;
 
     public String getStudentName() {
