@@ -15,6 +15,7 @@
             <list>
                 <value>4567812480</value>
                 <value>9135488145</value>
+                <value />   <!--this will store empty value in a list-->
                 <value>8712316554</value>
                 <null />
                 <value>9135488145</value>   <!--this will print again-->
@@ -52,7 +53,7 @@
         </property>
         <property name="address">
             <set>
-                <!--for no entries or for a empty set-->
+                <!--for no entries or for an empty set-->
             </set>
         </property>
         <property name="courses">
