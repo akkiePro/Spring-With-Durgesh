@@ -2,16 +2,6 @@ package com.akki;
 
 public class Student {
     private int studentId;
-
-    @Override
-    public String toString() {
-        return "Student{" +
-                "studentId=" + studentId +
-                ", studentName='" + studentName + '\'' +
-                ", studentAddress='" + studentAddress + '\'' +
-                '}';
-    }
-
     private String studentName;
     private String studentAddress;
 
@@ -37,5 +27,14 @@ public class Student {
 
     public void setStudentAddress(String studentAddress) {
         this.studentAddress = studentAddress;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentId=" + studentId +
+                ", studentName='" + studentName + '\'' +
+                ", studentAddress='" + studentAddress + '\'' +
+                '}';
     }
 }
